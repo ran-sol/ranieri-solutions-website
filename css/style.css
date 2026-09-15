@@ -470,6 +470,22 @@ section.tight { padding: 64px 0; }
   padding: 40px;
 }
 
+.photo-frame {
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  margin-bottom: 24px;
+  aspect-ratio: 4 / 5;
+  background: var(--bg-elev-2);
+}
+
+.photo-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .tag-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
 
 .tag {
