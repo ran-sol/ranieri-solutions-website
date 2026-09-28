@@ -153,37 +153,22 @@ header.site-header {
 }
 
 .logo {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 10px;
-  font-weight: 700;
-  font-size: 1.02rem;
-  letter-spacing: -0.01em;
 }
 
-.logo-mark {
-  width: 32px;
-  height: 32px;
-  border-radius: 8px;
-  background: linear-gradient(135deg, var(--accent), var(--accent-2));
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-mono);
-  font-weight: 700;
-  color: #060a10;
-  font-size: 0.95rem;
-}
-
-.logo-sub {
+.logo img {
+  height: 40px;
+  width: auto;
   display: block;
-  font-family: var(--font-mono);
-  font-size: 0.65rem;
-  letter-spacing: 0.12em;
-  color: var(--text-faint);
-  font-weight: 500;
-  text-transform: uppercase;
-  margin-top: 1px;
+}
+
+.footer-logo {
+  margin-bottom: 14px;
+}
+
+.footer-logo img {
+  height: 36px;
 }
 
 .nav-links {
